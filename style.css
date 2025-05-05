@@ -1,0 +1,18 @@
+.header {
+    color: gray;
+    text-align: left;
+}
+
+.main-container {
+    width: 50%;
+    text-align: left;
+    align-content: center;
+    margin: auto;
+}
+
+.item-label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+

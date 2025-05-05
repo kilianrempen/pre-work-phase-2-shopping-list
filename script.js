@@ -27,7 +27,7 @@ function addItemToShoppingList() {
     let id = getRandomInt(1, 1000000);
 
     let itemHtml = createListItemHtml(itemName.value, itemQuantity.value, id);
-    console.log("ItemHTML: ", itemHtml);
+//    console.log("ItemHTML: ", itemHtml);
     let itemListRef = document.getElementById("shopping-list");
     itemListRef.insertAdjacentHTML("afterend", itemHtml);
 
